@@ -1,8 +1,9 @@
 backend:
-  name: git-gateway
+  name: github
   repo: entreluckrich/11ty-netlifycms # Path to your GitHub repository
   # optional, defaults to master
   # branch: master # Branch to update (optional; defaults to master)
+  base_url: https://11ty-netlifycms.pages.dev/
 
 # Uncomment below to enable drafts
 # publish_mode: editorial_workflow
