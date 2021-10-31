@@ -55,3 +55,9 @@ collections:
           - {label: Subtitle, name: subtitle, widget: string, required: false}
           - { label: Image, name: image, widget: image, required: false }
           - { label: Image Alt Text, name: image_alt, widget: string, required: false }
+
+backend:
+  name: github
+  repo: entreluckrich/11ty-netlifycms # Path to your GitHub repository
+  # optional, defaults to master
+  # branch: main
