@@ -4,6 +4,7 @@ backend:
   # optional, defaults to master
   # branch: master # Branch to update (optional; defaults to master)
   base_url: https://11ty-netlifycms.pages.dev
+  auth_endpoint: api/auth
 
 # Uncomment below to enable drafts
 # publish_mode: editorial_workflow
