@@ -5,12 +5,17 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: index
+  path: index.njk
   label: Home Page
 - type: directory
   path: pages
   label: Pages
   create: documents
+  match: "**/*"
+- type: directory
+  path: projects
+  label: Projects
+  create: all
   match: "**/*"
 - type: directory
   path: posts
