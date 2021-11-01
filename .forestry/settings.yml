@@ -7,7 +7,6 @@ sections:
 - type: document
   path: index
   label: Home Page
-  match: "**/*"
 - type: directory
   path: pages
   label: Pages
@@ -16,7 +15,7 @@ sections:
 - type: directory
   path: posts
   label: Posts
-  create: all
+  create: documents
   match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
